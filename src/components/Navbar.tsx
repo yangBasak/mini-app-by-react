@@ -1,12 +1,15 @@
 import { Link } from "react-router-dom";
 import Style from "./Navbar.module.scss";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faHome } from "@fortawesome/free-solid-svg-icons";
+
 const Navbar = () => {
   return (
     <div className={Style.navContainer}>
       <h2 className={Style.title}>MINI-APP-BY-REACT</h2>
       <ul className={Style.listContainer}>
         <li>
-          <span>아</span>
+          <FontAwesomeIcon icon={faHome} />
           <Link to="/">Home</Link>
         </li>
         <li className={Style.subTitle}>Components</li>
