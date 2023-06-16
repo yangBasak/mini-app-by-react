@@ -1,9 +1,8 @@
-import React from "react";
-import { BrowserRouter, Route, Routes, NavLink, Link } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 import PageHome from "./pages/pageHome";
 import PageInfinity from "./pages/pageInfinity";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/navBar";
 const App = () => {
   return (
     <BrowserRouter>
