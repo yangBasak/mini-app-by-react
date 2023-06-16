@@ -1,8 +1,10 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import "./App.css";
-import PageHome from "./pages/pageHome";
-import PageInfinity from "./pages/pageInfinity";
+import "../src/assets/global.scss";
 import Navbar from "./components/navBar";
+// 페이지 삽입
+import PageHome from "./pages/pageHome";
+import PageInfinity from "./pages/PageInfinity";
+
 const App = () => {
   return (
     <BrowserRouter>
