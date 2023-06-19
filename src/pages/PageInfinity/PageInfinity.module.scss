@@ -1,4 +1,14 @@
 .wrapper {
   width: 900px;
   margin: auto;
+  gap: 0.5rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  li {
+    width: 100%;
+    display: contents;
+    img {
+      width: 100%;
+    }
+  }
 }
